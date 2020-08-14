@@ -1,0 +1,7 @@
+---
+applications:
+  - name: Go-Web-Scrap
+    random-route: true
+    memory: 128M
+    env:
+      GO_INSTALL_PACKAGE_SPEC: ./main.go
